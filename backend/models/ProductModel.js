@@ -28,36 +28,39 @@ const productSchema = new mongoose.Schema({
         required: true,
         ref: "User",
     },
-    artist: {
+    name: {
         type: String, 
         required: true, 
     },
-    title: {
+    image: {
         type: String, 
         required: true,
     },
-    lable: { 
+    brand: { 
         type: String,
     },
-    format: {
+    category: {
         type: String, 
         required: true,
     },
-    releaseDate: {
-        type: Number, 
-    },
-    price: {
-        type: Number, 
+    description: {
+        type: String, 
         required: true,
     },
     reviews: [reviewSchema], 
     rating: {
         type: Number, 
+        required: true,
         default: 0,
     },
     numReviews: { 
         type: Number,
+        required: true,
         default: 0,
+    },
+    price: {
+        type: Number, 
+        required: true,
     },
     countInStock: { 
         type: Number, 
