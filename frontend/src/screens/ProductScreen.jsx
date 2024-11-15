@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Form, Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import { useGetProductDetailsQuery } from '../slices/productsApiSlice';
-import  Loader  from '../components/loader.jsx';
+import  Loader  from '../components/Loader.jsx';
 import Message from '../components/Message.jsx';
 import { addToCart } from '../slices/cartSlice.js';
 import { useDispatch } from 'react-redux';

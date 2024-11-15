@@ -5,8 +5,15 @@ Currently following Brad Travery's MERN Ecommerce course in order to implement t
 
 
 # To Do 
-1. Currently working through the backend authentification portion: need to test user auth API routes using Postman
-2. For some reason, when I started working on this on my desktop, Mongo Atlas connection no longer works on laptop; need to configure 
+1. Complete Front end authentification porition 
+2. For some reason, when I started working on this on my desktop, Mongo Atlas connection no longer works on laptop; need to configure
+3. Learn more about front end styling to personalize website
+
+Resources for front end stuff:
+
+[Travery's 'Create a Website With Video Background'](https://www.youtube.com/watch?v=8MgpE2DTTKA)
+
+[Traversy's 'CSS3 Animations and Transitions Crash Course'](https://www.youtube.com/watch?v=zHUpx90NerM) 
 
 
 # Usage
