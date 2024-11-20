@@ -5,10 +5,8 @@ Currently following Brad Travery's MERN Ecommerce course in order to implement t
 
 
 # To Do 
-1. Complete Checkout Process pt.1
-2. Stay on Track!!! One section per day will see that development is finished by next Wednesday 
-3. For some reason, when I started working on this on my desktop, Mongo Atlas connection no longer works on laptop; need to configure
-4. Learn more about front end styling to personalize website
+1. For some reason, when I started working on this on my desktop, Mongo Atlas connection no longer works on laptop; need to configure
+2. Learn more about front end styling to personalize website
 
 Resources for front end stuff:
 
