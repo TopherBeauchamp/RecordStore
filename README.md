@@ -5,7 +5,7 @@ Currently following Brad Travery's MERN Ecommerce course in order to implement t
 
 
 # To Do 
-1. For some reason, when I started working on this on my desktop, Mongo Atlas connection no longer works on laptop; need to configure
+1. Finish admin user dashboard 
 2. Learn more about front end styling to personalize website
 
 Resources for front end stuff:
