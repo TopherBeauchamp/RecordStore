@@ -30,15 +30,17 @@ const upload = multer({
 });
 const uploadSingleImage = upload.single('image');
 
-router.post('/', (req, res) => { 
-    uploadSingleImage(req, res, (err) => {
-        if(err) {
-            res.status(400).json({error: err.message});
+router.post('/', (req, res) => {
+    uploadSingleImage(req, res, function(err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(400).json({ message: 'Multer error', error: err.message });
+        } else if (err) {
+            return res.status(400).json({ message: 'File upload failed', error: err.message });
         }
 
-        res.status(200).send({
+        res.status(200).json({
             message: 'Image uploaded successfully',
-            image: `/${req.file.path}`,
+            image: `/${req.file.path}`
         });
     });
 });
